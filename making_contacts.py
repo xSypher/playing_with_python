@@ -2,7 +2,7 @@
 
 import os
 
-#Contact class to makes them easy.
+#Contact class to make them easy.
 class Contact:
     def __init__(self, name='', age=0, 
                 email='', address=0):
@@ -129,6 +129,7 @@ def consult_contacts():
                 print(contact) 
         input("Press enter to continue...")
     input("There are no contacts to consult...")
+
 def main():
     interface()
 
